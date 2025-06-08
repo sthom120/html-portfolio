@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Sarah's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
@@ -19,27 +19,35 @@
     </header>
 
     <main>
+      <section id="intro">
+        <h2>Welcome!</h2>
+        <p>Hello! I'm Sarah, a budding web developer with a passion for clean design and elegant code. Check back soon to see the projects I'm working on!</p>
+      </section>
+
       <section id="projects">
         <h2>My Projects</h2>
-        <div class="project">
-          <h3>Project 1</h3>
-          <img src="images/project1.jpg" alt="Screenshot of Project 1" height="200">
-          <p>Description of Project 1.</p>
-          <a href="project1.html">View Project</a>
+        <div class="projects-grid">
+          <article class="project placeholder">
+            <h3>Project Coming Soon</h3>
+            <img src="images/placeholder.jpg" alt="Placeholder for future project" height="200" />
+            <p>This space is reserved for one of my upcoming web development projects. Stay tuned!</p>
+            <a href="#" class="disabled-link">Coming Soon</a>
+          </article>
+
+          <article class="project placeholder">
+            <h3>Project Coming Soon</h3>
+            <img src="images/placeholder.jpg" alt="Placeholder for future project" height="200" />
+            <p>This space will showcase a cool project I'm currently building. Check back later for updates.</p>
+            <a href="#" class="disabled-link">Coming Soon</a>
+          </article>
+
+          <!-- Add more placeholder articles as needed -->
         </div>
-        <div class="project">
-          <h3>Project 2</h3>
-          <img src="images/project2.jpg" alt="Screenshot of Project 2" height="200">
-          <p>Description of Project 2.</p>
-          <a href="project2.html">View Project</a>
-        </div>
-        <!-- Add more projects as needed -->
       </section>
     </main>
 
     <footer>
-      <p>&copy; 2025 Sarah's Portfolio</p>
+      <p>&copy; 2025 Sarah Thomson. All rights reserved.</p>
     </footer>
   </body>
 </html>
-
